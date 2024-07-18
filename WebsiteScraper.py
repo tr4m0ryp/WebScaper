@@ -69,11 +69,11 @@ def get_company_website(company_name, search_engines):
 
 # Main function to read company names from Excel and write results back to Excel
 def main():
-    input_file = 'C:\\Users\\Moussa\\Downloads\\Map6.xlsx'
-    output_file = 'C:\\Users\\Moussa\\Downloads\\Duitsescholen_with_website.xlsx'
+    input_file = 'C:\\Users\\##########.xlsx' #add your own path
+    output_file = 'C:\\Users\\######_with_website.xlsx'
     
     search_engines = [
-        "https://www.google.com/search?q=Deutsch+Schule+{}",
+        "https://www.google.com/search?q=Deutsch+Schule+{}", #add your own search
         "https://www.bing.com/search?q=Deutsch+Schule+{}",
         "https://duckduckgo.com/?q=Deutsch+Schule+{}"
     ]
